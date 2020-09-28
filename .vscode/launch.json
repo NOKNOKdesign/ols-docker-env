@@ -12,7 +12,12 @@
             "port": 9000,
             "pathMappings": {
                 "/var/www/vhosts/": "${workspaceRoot}/sites"
+            },
+            "xdebugSettings": {
+                "max_children": 1024,
+                "max_data": 1024
             }
+
         }
     ]
 }
